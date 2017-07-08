@@ -84,7 +84,7 @@ read -r THE_DSC
 
 
 # If Sandbox!
-if [[ 'y' == IS_SANDBOX ]]; then
+if [[ 'y' == $IS_SANDBOX ]]; then
 	echo "-"
 	echo "——————————————————————————————————"
 	echo "${wb}${bf}➤  REPO URL:${r}"
@@ -95,7 +95,9 @@ if [[ 'y' == IS_SANDBOX ]]; then
 	cd /Users/"$USER"/web/sandbox
 
 	# Clone the repo.
-	mkdir GRLCI_TMP && cd GRLCI_TMP
+	rm -rf 'GRLCI_TMP'
+	mkdir 'GRLCI_TMP'
+	cd GRLCI_TMP
 	git clone $THE_REPO_URL .
 fi
 
