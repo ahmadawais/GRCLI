@@ -20,3 +20,23 @@
 
 
 A personal workflow CLI :)
+
+## Installation
+
+Open command line terminal (I prefer iTerm2) and run the following command.
+
+```bash
+sudo wget -qO grcli https://git.io/grlci && sudo chmod +x ./grcli && sudo mv ./grcli /usr/local/bin/
+```
+
+This command will perform the following actions:
+
+- Use sudo permissions
+- Use cURL to download [`grcli`](https://git.io/grlci)
+- Make the grcli executable
+- Install grcli inside /usr/local/bin/ folder.
+
+## Usage
+
+Just run `grcli` command :)
+
