@@ -1,4 +1,3 @@
-
 <table width='100%'>
     <tr>
         <td align='left' width='100%' colspan='2'>
@@ -17,6 +16,15 @@
         </td>
     </tr>
 </table>
+
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**
+
+- [Installation](#installation)
+- [Usage](#usage)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 
 A personal workflow CLI :)
