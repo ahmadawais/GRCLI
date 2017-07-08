@@ -133,7 +133,7 @@ echo "${wb}${bf}➤  PUSH (y/n): (n)${r}"
 echo "——————————————————————————————————"
 read -r THE_PUSH
 
-if [[ 'y' === $THE_PUSH ]]; then
+if [[ 'y' == $THE_PUSH ]]; then
 	git add README.md
 	git commit -m 'ADD: ReadMe FOSS info.'
 	git push
